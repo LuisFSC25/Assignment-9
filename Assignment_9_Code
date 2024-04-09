@@ -1,0 +1,79 @@
+class tops{
+public void prof() // function to show professional tops
+{
+
+System.out.println("professional top");
+}
+
+public void casual() // function to show casual tops
+{
+
+System.out.println("casual top");
+}
+
+public void party() //function to show party top
+{
+
+System.out.println("party top");
+}
+
+}
+
+
+class pants{
+public void prof() //function to show professional pants
+{
+
+System.out.println("professional pant");
+}
+
+public void casual() //function to show casual pants
+{
+
+System.out.println("casual pant");
+}
+
+public void party() //function to show party pants
+{
+
+System.out.println("party pant");
+}
+}
+
+
+class shoes{
+public void prof() //function to show professional shoes
+{
+
+System.out.println("professional shoe");
+}
+
+public void casual() //function to show casual shoes
+{
+
+System.out.println("casual shoe");
+}
+
+public void party() //function to show party shoes
+{
+
+System.out.println("party shoe");
+}
+}
+
+public static void main(Strings args[])
+{
+
+tops t=new tops();
+pants p=new pants(); 
+shoes s=new shoes();
+t.prof(); 
+t.casual();
+t.party();
+p.prof();
+p.casual();
+p.party();
+s.prof();
+s.casual();
+s.party();
+}
